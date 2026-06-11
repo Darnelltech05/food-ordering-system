@@ -42,12 +42,12 @@ Dependency Injection is a design pattern where objects receive their dependencie
 
 ### Purpose of each package:
 
-| Package | Purpose |
-|---------|--|
-| controller | Handles incoming HTTP requests and returns responses. |
-| service | Contains business logic and processing rules. |
-| repository | Communicates with the database using JPA. |
-| entity | Contains classes that represent database tables. |
-| dto | Contains Data Transfer Objects used to transfer data between layers. |
-| config | Stores configuration classes and application settings. |
-| exception | Contains custom exceptions and error handling logic. |
+| Package    | Purpose                                                              |
+|------------|----------------------------------------------------------------------|
+| controller | Handles incoming HTTP requests and returns responses.                |
+| service    | Contains business logic and processing rules.                        |
+| repository | Communicates with the database using JPA.                            |
+| entity     | Contains classes that represent database tables.                     |
+| dto        | Contains Data Transfer Objects used to transfer data between layers. |
+| config     | Stores configuration classes and application settings.               |
+| exception  | Contains custom exceptions and error handling logic.                 |
