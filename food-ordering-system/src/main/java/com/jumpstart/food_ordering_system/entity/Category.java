@@ -5,10 +5,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-/**
- * Entity class representing the 'category' table in the database.
- * This class maps Java objects to database records.
- */
 @Entity
 @Table(name = "category")
 @Data
@@ -22,4 +18,7 @@ public class Category {
 
     @Column(name = "name", nullable = false, length = 100)
     private String name;
+
+    @Column(name = "description", length = 255)
+    private String description;  // ← NEW FIELD
 }
