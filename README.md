@@ -4,7 +4,7 @@
 
 ### 1. What is Spring Boot?
 
-Spring Boot is a Java framework that simplifies the development of web applications and APIs by providing preconfigured settings and tools. It reduces setup time and allows developers to focus on writing business logic.
+Spring Boot is a Java framework that simplifies the development of web applications and API by providing preconfigured settings and tools. It reduces setup time and allows developers to focus on writing business logic.
 
 ### 2. What is Maven?
 
