@@ -20,5 +20,5 @@ public class Category {
     private String name;
 
     @Column(name = "description", length = 255)
-    private String description;  // ← ADD THIS LINE
+    private String description;
 }

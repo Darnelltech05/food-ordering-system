@@ -1,0 +1,8 @@
+package com.jumpstart.food_ordering_system.exception;
+
+public class MenuNotFoundException extends RuntimeException {
+
+    public MenuNotFoundException(String message) {
+        super(message);
+    }
+}

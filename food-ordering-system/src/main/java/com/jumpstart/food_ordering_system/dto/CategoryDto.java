@@ -18,5 +18,5 @@ public class CategoryDto {
     private String name;
 
     @Size(max = 255, message = "Description must be less than 255 characters")
-    private String description;  // ← NEW FIELD
+    private String description;  // ← MUST HAVE THIS
 }
